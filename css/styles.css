@@ -1,0 +1,39 @@
+html,
+body {
+   margin:0;
+   padding:20px;
+   padding-bottom:60px;
+   height:100%;
+   background: #F0F5F5;
+   font-family: "Courier New", Courier, monospace;
+}
+.center-box {
+   padding:10px;
+   position:relative;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 10%;
+   border: 1px solid black;
+   text-align: center;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+   background:#F0F5F5;
+   text-align: left;
+   padding-right: 125px;
+}
