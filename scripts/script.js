@@ -1,5 +1,5 @@
 $( ".center-box" ).click(function() {
-  $(this).slideUp('fast', function() {
+  $(this).slideUp('slow', function() {
    $("#text-box").html(SampleText);
   })
 });
