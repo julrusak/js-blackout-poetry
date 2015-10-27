@@ -28,6 +28,15 @@ body {
   text-decoration: none;
 }
 
+.text-box{
+  padding:10px;
+  position:relative;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  text-align: center;
+}
+
 .footer {
    position:absolute;
    bottom:0;
