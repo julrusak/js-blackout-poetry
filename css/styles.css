@@ -9,10 +9,24 @@ body {
 .center-box {
    padding:10px;
    position:relative;
-   margin: auto;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 10%;
    border: 1px solid black;
    text-align: center;
 }
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
 .footer {
    position:absolute;
    bottom:0;
