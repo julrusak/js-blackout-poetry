@@ -5,6 +5,7 @@ body {
    padding-bottom:60px;
    height:100%;
    background: #F0F5F5;
+   font-family: "Courier New", Courier, monospace;
 }
 .center-box {
    padding:10px;
@@ -19,7 +20,7 @@ body {
 .ghost-button {
   display: inline-block;
   width: 200px;
-  padding: 8px;
+  padding: 10px;
   color: #000;
   border: 1px solid #000;
   text-align: center;
