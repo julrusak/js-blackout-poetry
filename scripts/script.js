@@ -4,6 +4,10 @@ $( ".center-box" ).click(function() {
   })
 });
 
+$(".text-box").delegate("span", "click", function() {
+   alert($(this).text());
+});
+
 
 
 
