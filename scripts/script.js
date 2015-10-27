@@ -1,3 +1,3 @@
-$( ".ghost-button" ).click(function() {
-  alert( "I work" );
+$( ".center-box" ).click(function() {
+  $( this ).slideUp();
 });
