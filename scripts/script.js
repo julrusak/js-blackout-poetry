@@ -9,6 +9,10 @@ $(".text-box").delegate("span", "click", function() {
   $(this).toggleClass("blackout");
 });
 
+$(".done").click("span", "click", function() {
+
+});
+
 function wrapWords(element) {
     var words = element.split(/ /);
     var newHtml = '';
