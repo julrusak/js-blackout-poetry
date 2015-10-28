@@ -1,6 +1,7 @@
 $( ".center-box" ).click(function() {
   $(this).slideUp('slow', function() {
    $(".text-box").html(wrapWords(SampleText));
+   $(".done").css('visibility', 'visible');
   })
 });
 

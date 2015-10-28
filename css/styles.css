@@ -17,7 +17,7 @@ body {
    text-align: center;
 }
 
-.ghost-button {
+#ghost-button {
   display: inline-block;
   width: 200px;
   padding: 10px;
@@ -49,4 +49,8 @@ body {
 
 .blackout {
     text-decoration: line-through;
+}
+
+.done {
+  visibility: hidden;
 }
