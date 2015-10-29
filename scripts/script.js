@@ -9,8 +9,8 @@ $(".text-box").delegate("span", "click", function() {
   $(this).toggleClass("blackout");
 });
 
-$(".done").click("span", "click", function() {
-
+$(".done").click(function() {
+  alert("Done!");
 });
 
 function wrapWords(element) {
