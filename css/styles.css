@@ -28,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-.text-box{
+#text-box{
   padding:10px;
   position:relative;
   margin-left: 25%;
