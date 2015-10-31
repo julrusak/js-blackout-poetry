@@ -11,7 +11,7 @@ $("#text-box").delegate("span", "click", function() {
 
 $("#done").click(function() {
   $("#text-box span.blackout").hide();
-  $("#done")
+  $("#done").hide()
 });
 
 function wrapWords(element) {
