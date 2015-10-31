@@ -1,7 +1,7 @@
 $( ".center-box" ).click(function() {
   $(this).slideUp('slow', function() {
    $("#text-box").html(wrapWords(SampleText[Math.floor(Math.random() * SampleText.length)]));
-   $(".done").css('visibility', 'visible');
+   $("#done").css('visibility', 'visible');
   })
 });
 
@@ -9,8 +9,9 @@ $("#text-box").delegate("span", "click", function() {
   $(this).toggleClass("blackout");
 });
 
-$(".done").click(function() {
+$("#done").click(function() {
   $("#text-box span.blackout").hide();
+  $("#done")
 });
 
 function wrapWords(element) {
