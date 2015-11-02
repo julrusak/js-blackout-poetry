@@ -17,7 +17,7 @@ body {
    text-align: center;
 }
 
-#ghost-button {
+.ghost-button {
   display: inline-block;
   width: 200px;
   padding: 10px;
@@ -28,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-.text-box{
+#text-box{
   padding:10px;
   position:relative;
   margin-left: 25%;
@@ -52,7 +52,7 @@ body {
   text-decoration: line-through;
 }
 
-.done#ghost-button {
+.ghost-button#done {
   display: block;
   width: 200px;
   padding: 10px;
