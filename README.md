@@ -2,4 +2,4 @@
 
 This site uses JavaScript to allow users to create their own blackout poems!
 
-Visit the site [a here](http://blackoutpoetry.bitballoon.com/)
+Visit the site [here](http://blackoutpoetry.bitballoon.com/)
